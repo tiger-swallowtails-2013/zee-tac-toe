@@ -1,3 +1,8 @@
 function playZeeTacToe(eventListeners) {
-  document.getElementById('zee_tac_toe').classList.remove('hidden');
+  var gameBoardElement = document.getElementById('zee_tac_toe');
+  showElement(gameBoardElement);
+}
+
+function showElement(element) {
+  element.classList.remove('hidden');
 }
